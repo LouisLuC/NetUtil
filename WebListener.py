@@ -1,3 +1,4 @@
+from os import system
 import requests as rq
 import time
 import re
@@ -16,3 +17,12 @@ class WebListener:
                     if return_match: return match 
                     else: return True
             time.sleep(time_interval)
+
+    def pull(self, url, location=None, rename=None, sh_cmd = "wget"):
+        cmd = sh_cmd  
+        if location:
+            cmd += " -P " + location
+        if rename:
+            cmd += " -O " + rename
+        cmd += url
+        system(cmd)
