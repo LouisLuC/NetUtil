@@ -5,4 +5,4 @@ uitl of network
 
 - WebListener: listens to user-designated url and waiting utill specific signal occurs in the website.
 
-- main.py: example listen to Threpp, upload sequences, monitor, retrieve and save result.
+- main.py: example for Threpp: upload sequences, monitor email INBOX, retrieve and save result.
