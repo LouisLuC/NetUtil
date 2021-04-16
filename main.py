@@ -1,5 +1,6 @@
 from sys import argv
-import config as cfg
+import config_self_use as cfg
+# import config as cfg 
 from EmailListener import EmailListener
 from WebListener import WebListener
 import requests as rq
