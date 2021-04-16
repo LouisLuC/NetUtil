@@ -7,7 +7,7 @@ import requests as rq
 import time
 from re import search
 
-# assert len(argv) == 4, "Useage: "+argv[0]+" <seq_path> <out_put_path> <PPI_list>"
+assert len(argv) == 4, "Useage: "+argv[0]+" <seq_path> <out_put_path> <PPI_list>"
 
 # set-up
 seq_path  = "seqs"# argv[1]
